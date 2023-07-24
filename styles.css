@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins',sans-serif; */
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:20px 100px;
+    /* background:red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+a.logo{
+    color: #fff;
+    font-weight: 300px;
+    font-family: 'Italianno', cursive;
+}
+.nav a{
+    position: realative
+    font-size 1.1em;
+    color:white;
+    text-decoration: none;
+    margin-left: 80px;
+    justify-content: space-between;
+
+}
+.nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background:#fff;
+    border-radius: 5px;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(Main-img/main-img.jpg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    padding: 80px 100px 0px;
+}
+a.logo{
+    font-size: 1.5em;
+    font-family: 'ita';
+}
+a.Hac{
+    justify-content: space-between;
+    margin-left: 40px;
+    /* font-size: bolder; */
+    font-size: 1.2em;
+    color: #fff;
+}
+.home .content{
+    max-width: 600px;
+    color: white;
+}
+.content h1{
+    font-size: 3em;
+    letter-spacing: .03em;
+    margin: 40px 0px 75px;
+}
+
+.content a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+    
+}
+p.content{
+    /* text-align: center; */
+    background-color: #27374D;
+}
+
+img.img1{
+    width: 80vh;
+    height: 50vh;
+    margin: 50px 0px 20px 50px;
+    position: relative; 
+    /* display:flex; */
+}
+ 
+
+/* About Section  */
+
+
+.about{
+    display: flex;
+    background-color: #27374D; 
+}
+
+/* Abu -dhabi */
+
+h2.ad{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.ad-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-ad img{
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 0px 20px 50px;
+    border-radius: 50px;
+}
+a.btn{
+    color: #fff;
+    margin: 0px 0px 0px 50px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+/* Caruso */
+h2.ca{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.ca-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-ca img{
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 50px 20px 0px;
+    border-radius: 50px;
+}
+
+/* Denmark */
+h2.dk{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.dk-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-dk img{
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 0px 20px 50px;
+    border-radius: 50px;
+}
+a.btn{
+    color: #fff;
+    margin: 0px 0px 0px 50px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+/* NYC */
+h2.NYC{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.NYC-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-NYC img{
+    width: 50vh;
+    height: 50vh;
+    /* margin: 50px 0px 20px 50px; */
+    border-radius: 50px;
+
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 50px 20px 0px;
+    border-radius: 50px;
+}
+a.btn{
+    color: #fff;
+    margin: 5px 0px 0px 50px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+
+/* Santaroni */
+h2.st{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.st-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-st img{
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 0px 20px 50px;
+    border-radius: 50px;
+}
+
+/* udaipur */
+h2.ud{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.ud-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-ud img{
+    width: 50vh;
+    height: 50vh;
+    /* margin: 50px 0px 20px 50px; */
+    border-radius: 50px;
+
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 50px 20px 0px;
+    border-radius: 50px;
+}
+
+
+/* UK */
+h2.uk{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.uk-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-uk img{
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 0px 20px 50px;
+    border-radius: 50px;
+}
+
+/* vegas */
+
+h2.vg{
+    color: #fff;
+    font-family: 'Italianno', cursive;
+    margin: 50px 20px 20px 50px;
+    font-size: 20vh;
+}
+p.vg-p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 50px 20px 20px 50px;
+    color: #fff;
+}
+div.about-vg img{
+    width: 50vh;
+    height: 50vh;
+    /* margin: 50px 0px 20px 50px; */
+    border-radius: 50px;
+
+    width: 50vh;
+    height: 50vh;
+    margin: 50px 50px 20px 0px;
+    border-radius: 50px;
+}
